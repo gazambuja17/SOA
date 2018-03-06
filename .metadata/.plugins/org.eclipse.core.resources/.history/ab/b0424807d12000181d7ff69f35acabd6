@@ -1,0 +1,14 @@
+package br.com.caelum.estoque.main;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class TestaEscritaDeObjetos {
+
+	public static void main(String[] args) throws IOException {
+
+		try(ObjectOutputStream oss = new ObjectOutputStream(
+									 new FileOutputStream("itens.bin"))}
+		
+}
