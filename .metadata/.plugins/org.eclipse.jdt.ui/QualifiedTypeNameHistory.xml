@@ -3,11 +3,9 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
 <fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
 <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
@@ -15,4 +13,25 @@
 <fullyQualifiedTypeName name="java.rmi.Naming"/>
 <fullyQualifiedTypeName name="br.com.caelum.estoque.rmi.EstoqueRmi"/>
 <fullyQualifiedTypeName name="br.com.caelum.estoque.rmi.ItemEstoque"/>
+<fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="br.com.caelum.estoque.ws.ItemEstoque"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.jws.WebResult"/>
+<fullyQualifiedTypeName name="javax.jws.WebParam"/>
+<fullyQualifiedTypeName name="javax.xml.ws.WebFault"/>
+<fullyQualifiedTypeName name="br.com.caelum.estoque.soap.EstoqueWSService"/>
+<fullyQualifiedTypeName name="br.com.caelum.estoque.soap.ItensPeloCodigo"/>
+<fullyQualifiedTypeName name="br.com.caelum.estoque.soap.ItensPeloCodigoResponse"/>
+<fullyQualifiedTypeName name="br.com.caelum.estoque.soap.ItemEstoque"/>
+<fullyQualifiedTypeName name="java.util.function.Predicate"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.Predicate"/>
+<fullyQualifiedTypeName name="com.google.common.base.Predicate"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Iterables"/>
+<fullyQualifiedTypeName name="br.com.caelum.correios.soap.CResultado"/>
+<fullyQualifiedTypeName name="br.com.caelum.correios.soap.ConsumidorServicoCorreios"/>
+<fullyQualifiedTypeName name="br.com.caelum.correios.soap.CalcPrecoPrazoWSSoap"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
