@@ -70,7 +70,7 @@ public class CarrinhoController{
 								 String titularCartao, 
 								 RedirectAttributes modelo) {
 	
-        if(!ehStringVazia(titularCartao) && !ehStringVazia(numeroCartao)){
+		if(!ehStringVazia(titularCartao) && !ehStringVazia(numeroCartao)){
 			carrinho.setNumeroCartao(numeroCartao);
 			carrinho.setTitularCartao(titularCartao);
 		}
@@ -90,6 +90,11 @@ public class CarrinhoController{
 		}
 		
 		return REDIRECT_CARRINHO_CONFIRMAR;
+	}
+	
+	@RequestMapping("/teste1")
+	public String teste(){
+		return "Teste";
 	}
 	
 	@RequestMapping("/confirmarPagamento")

@@ -7,8 +7,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
 
 @Entity
+@XmlAccessorType(XmlAccessType.FIELD)
 public class ItemCompra implements Serializable {
 
 	private static final long serialVersionUID = 1L;

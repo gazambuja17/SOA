@@ -74,6 +74,7 @@ public class Carrinho implements Serializable {
 	}
 
 	public Pagamento criarPagamento(String numeroCartao, String nomeTitular) {
+		System.out.println("tentando criar pagamento");
 		Transacao transacao = new Transacao();
 		transacao.setNumero(numeroCartao);
 		transacao.setTitular(nomeTitular);
