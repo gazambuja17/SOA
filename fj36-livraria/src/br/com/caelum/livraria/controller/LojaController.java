@@ -53,5 +53,4 @@ public class LojaController {
 			String json = xstream.toXML(livroMaisVendidos);
 			return json;
 	}
-
 }
